@@ -1,0 +1,11 @@
+﻿start
+
+:get user input marks;
+if()
+elseif()
+elseif()
+elseif()
+elseif()
+endif
+:print grade;
+stop
