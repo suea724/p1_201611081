@@ -7,4 +7,12 @@ def countwords():
         else:
             d[c]=d[c]+1
     print d
-countwords()
+    
+def lab9():
+    countwords()
+    
+def main():
+    lab9()
+
+if __name__=="__main__":
+    main()
