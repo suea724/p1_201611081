@@ -11,6 +11,9 @@ def keyright():
     t1.right(90)
 def mousegoto(x,y):
     t1.setpos(x,y)
+    t1.pos()=(x,y)
+    if 95<x<305 and 95<y<105:
+    	print "Correct"
 
 def addKeys():
     wn.onkey(keyup,"Up")
